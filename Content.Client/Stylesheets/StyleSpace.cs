@@ -47,23 +47,9 @@ namespace Content.Client.Stylesheets
                 16
             );
 
-            var OCRAExtended10 = resCache.GetFont
-            (
-                new []
-                {
-                    "/Fonts/OCR-A-Extended.ttf"
-                },
-                10
-            );
+            var OCRAExtended10 = resCache.NotoStack(size: 10);
 
-            var OCRAExtended16 = resCache.GetFont
-            (
-                new []
-                {
-                    "/Fonts/OCR-A-Extended.ttf"
-                },
-                16
-            );
+            var OCRAExtended16 = resCache.NotoStack(size: 16);
 
             var progressBarBackground = new StyleBoxFlat
             {

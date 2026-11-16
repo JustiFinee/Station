@@ -1,38 +1,38 @@
 - type: font
   id: Default
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: DefaultItalic
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: DefaultBold
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: DefaultBoldItalic
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: NotoSansDisplay
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: NotoSansDisplayItalic
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: NotoSansDisplayBold
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: NotoSansDisplayBoldItalic
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: BoxRound
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf
 
 - type: font
   id: AnimalSilence
@@ -49,9 +49,9 @@
 # Mono
 - type: font
   id: Helvetica
-  path:  /Fonts/OCR-A-Extended.ttf
+  path:  /Fonts/NotoSans/NotoSans-Regular.ttf
 
 # Batltlefield 14
 - type: font
   id: OCRAExtended
-  path: /Fonts/OCR-A-Extended.ttf
+  path: /Fonts/NotoSans/NotoSans-Regular.ttf

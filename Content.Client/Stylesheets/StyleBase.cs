@@ -68,15 +68,7 @@ namespace Content.Client.Stylesheets
                 12
             );
 
-            var OCRAExtended12 = resCache.GetFont
-            (
-                new []
-                {
-                    "/Fonts/OCR-A-Extended.ttf",
-
-                },
-                12
-            );
+            var OCRAExtended12 = resCache.NotoStack(size: 12);
             var textureCloseButton = resCache.GetTexture("/Textures/Interface/Nano/cross.svg.png");
 
             // Button styles.
