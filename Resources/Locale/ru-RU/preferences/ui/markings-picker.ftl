@@ -66,3 +66,30 @@ markings-layer-LFoot = Левая стопа
 markings-layer-Overlay = Наложение
 markings-layer-TailOverlay = Наложение
 
+markings-used = Используемые черты
+markings-unused = Неиспользуемые черты
+markings-add = Добавить черту
+markings-remove = Удалить черту
+markings-rank-up = Выше
+markings-rank-down = Ниже
+marking-points-remaining = Осталось черт: {$points}
+marking-used = {$marking-name}
+marking-used-forced = {$marking-name} (Принудительно)
+marking-slot-add = Добавить
+marking-slot-remove = Удалить
+marking-slot = Слот {$number}
+
+# Categories
+
+markings-category-Special = Особые
+markings-category-Hair = Волосы
+markings-category-FacialHair = Лицевая растительность
+markings-category-Head = Голова
+markings-category-HeadTop = Голова (Верх)
+markings-category-HeadSide = Голова (Бок)
+markings-category-Snout = Морда
+markings-category-Chest = Грудь
+markings-category-Arms = Руки
+markings-category-Legs = Ноги
+markings-category-Tail = Хвост
+markings-category-Overlay = Наложение

@@ -1,6 +1,8 @@
 humanoid-profile-editor-randomize = Рандомизация
 humanoid-profile-editor-randomize-unlocked-button = Рандомизировать
 humanoid-profile-editor-randomize-name-button = Имя
+humanoid-profile-editor-name-random-button = Рандомизировать имя
+humanoid-profile-editor-randomize-everything-button = Рандомизировать всё
 humanoid-profile-editor-randomize-species-button = Вид
 humanoid-profile-editor-randomize-age-button = Возраст
 humanoid-profile-editor-randomize-sex-button = Пол
@@ -77,3 +79,14 @@ humanoid-profile-editor-voice-masculine = Мужественный
 humanoid-profile-editor-voice-feminine = Женственный
 humanoid-profile-editor-voice-neutral = Нейтральный
 humanoid-profile-editor-voice-none = Безымянный голос
+
+# Mono Start
+humanoid-profile-editor-height-label = Высота:
+humanoid-profile-editor-width-label = Ширина:
+humanoid-profile-editor-clear-all-traits-button = Очистить все черты
+humanoid-profile-editor-clear-all-traits-confirm = Подтвердить очистку
+trait-category-disabilities = Инвалидности
+trait-category-speech = Акценты
+trait-category-quirks = Особенности
+trait-category-physical = Физические
+# Mono End
