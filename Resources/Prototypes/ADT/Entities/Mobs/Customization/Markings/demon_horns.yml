@@ -1,0 +1,283 @@
+- type: marking
+  id: DemonCowHorns
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: cow_horns
+
+- type: marking
+  id: DemonHornsDeer
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: deer_antlers_horns
+
+- type: marking
+  id: DemonHornsSmall
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: small_horns
+
+- type: marking
+  id: DemonHornsBuffalo
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_buffalo
+
+- type: marking
+  id: DemonHornsCarpicorn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_capricorn
+
+- type: marking
+  id: DemonHornsDevilOne
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Human, Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_devil_one
+
+- type: marking
+  id: DemonHornsDevil
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_devil
+
+- type: marking
+  id: DemonHornsDevil2
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_devil2
+
+- type: marking
+  id: DemonHornsDevil3
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_devil3
+
+- type: marking
+  id: DemonHornsDevil4
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_devil4
+
+- type: marking
+  id: DemonHornsRam
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_ram
+
+- type: marking
+  id: DemonHornsUnicorn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: horns_unicorn
+
+#Start-Рога от Иллюми, 32x64
+- type: marking
+  id: DemonHornsBackwardHorns
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: backward_horns
+
+- type: marking
+  id: DemonHornsDarkCrown
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: dark_crown
+
+- type: marking
+  id: DemonHornsDevilPrimeSi1
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: devil_prime1_s
+
+- type: marking
+  id: DemonHornsDevilPrime1
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: devil_prime1
+
+- type: marking
+  id: DemonHornsDevilPrime2
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: devil_prime2
+
+- type: marking
+  id: DemonHornsFat_Horn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/size_horns32x64.rsi
+      state: fat_horn
+#End-Рога от Иллюми, 32x64
+
+- type: marking
+  id: ADTAlldurak
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: durak
+
+- type: marking
+  id: ADTAllhorn1
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn1
+
+- type: marking
+  id: ADTAllhorn2
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn2
+
+- type: marking
+  id: ADTAllhorn3
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn3
+
+- type: marking
+  id: ADTAllhorn4
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn4
+
+- type: marking
+  id: ADTAllhorn5
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn5
+
+- type: marking
+  id: ADTAllhorn6
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: horn6
+
+- type: marking
+  id: ADTAlllord
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: lord
+
+- type: marking
+  id: ADTAlloldpain
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: oldpain
+
+- type: marking
+  id: ADTAlltavrhorn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: tavrhorn
+
+- type: marking
+  id: ADTAlltelehorn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: telehorn
+
+- type: marking
+  id: ADTAllvampirehorn
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  groupWhitelist: [ Demon, Celecern ]
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/horns.rsi
+      state: vampirehorn

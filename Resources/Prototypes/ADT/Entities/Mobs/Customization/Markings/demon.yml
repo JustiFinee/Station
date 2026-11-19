@@ -1,0 +1,93 @@
+- type: marking
+  id: DemonChestCowSpots
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: cow_spots
+
+- type: marking
+  id: DemonChestGuard
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: guards_stripes
+
+- type: marking
+  id: DemonChestLinesEmperos
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: lines_emperos
+
+- type: marking
+  id: DemonChestQueenLines
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: queen_lines
+
+- type: marking
+  id: DemonChestTreeLines
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: tree_lines
+
+- type: marking
+  id: DemonChestTrinitySpots
+  markingCategory: Chest
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: trinity_spots
+
+#Бороды
+- type: marking
+  id: DemonGoatee
+  markingCategory: FacialHair
+  bodyPart: FacialHair
+  groupWhitelist: [Demon]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/custom.rsi
+      state: goatee
+
+#Глаза, гетерохромия
+
+- type: marking
+  id: ADTDemonrigth_eye
+  markingCategory: Head
+  bodyPart: Eyes
+  groupWhitelist: [Demon, Celecern]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+          negative: true
+  sprites:
+    - sprite: Mobs/Customization/tattoos.rsi
+      state: tattoo_eye_r
+
+- type: marking
+  id: ADTDemonleft_eye
+  markingCategory: Head
+  bodyPart: Eyes
+  groupWhitelist: [Demon, Celecern]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+          negative: true
+  sprites:
+    - sprite: Mobs/Customization/tattoos.rsi
+      state: tattoo_eye_l

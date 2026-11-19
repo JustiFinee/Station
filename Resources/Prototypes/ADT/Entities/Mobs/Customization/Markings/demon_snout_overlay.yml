@@ -1,0 +1,26 @@
+- type: marking
+  id: ADTDemonFreakyTongue
+  markingCategory: Snout
+  bodyPart: Snout
+  groupWhitelist: [Demon, Celecern]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/demon_snout_overlay.rsi
+      state: demon_freaky_tongue
+
+- type: marking
+  id: ADTDemonFreakyTongueFast
+  markingCategory: Snout
+  bodyPart: Snout
+  groupWhitelist: [Demon, Celecern]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/demon_snout_overlay.rsi
+      state: demon_freaky_tongue_fast
+
+- type: marking
+  id: ADTDemonFreakyTongueSlow
+  markingCategory: Snout
+  bodyPart: Snout
+  groupWhitelist: [Demon, Celecern]
+  sprites:
+    - sprite: ADT/Mobs/Customization/Demon/demon_snout_overlay.rsi
+      state: demon_freaky_tongue_slow
