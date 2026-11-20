@@ -19,7 +19,7 @@ public sealed partial class CCVars
     /// Automatically starts a map vote when returning to the lobby.
     /// Requires auto voting to be enabled.
     public static readonly CVarDef<bool> MapAutoVoteEnabled =
-        CVarDef.Create("vote.map_autovote_enabled", false, CVar.SERVERONLY);
+        CVarDef.Create("vote.map_autovote_enabled", true, CVar.SERVERONLY);
 
     /// Automatically starts a gamemode vote when returning to the lobby.
     /// Requires auto voting to be enabled.
@@ -49,7 +49,7 @@ public sealed partial class CCVars
     ///     Controls the default game preset.
     /// </summary>
     public static readonly CVarDef<string>
-        GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "nfpirate", CVar.ARCHIVE); // Frontier: secret<nfpirate
+        GameLobbyDefaultPreset = CVarDef.Create("game.defaultpreset", "Secret", CVar.ARCHIVE); // Frontier: secret<nfpirate
 
     /// <summary>
     ///     Controls if the game can force a different preset if the current preset's criteria are not met.
@@ -79,7 +79,7 @@ public sealed partial class CCVars
     ///     Controls the game map prototype to load. SS14 stores these prototypes in Prototypes/Maps.
     /// </summary>
     public static readonly CVarDef<string>
-        GameMap = CVarDef.Create("game.map", "Frontier", CVar.SERVERONLY); // Frontier: string.Empty<Frontier
+        GameMap = CVarDef.Create("game.map", string.Empty, CVar.SERVERONLY); // Frontier: string.Empty<Frontier
 
     /// <summary>
     ///     Controls whether to use world persistence or not.
@@ -111,7 +111,7 @@ public sealed partial class CCVars
     ///     Is map rotation enabled?
     /// </summary>
     public static readonly CVarDef<bool>
-        GameMapRotation = CVarDef.Create("game.map_rotation", false, CVar.SERVERONLY); // Frontier: false
+        GameMapRotation = CVarDef.Create("game.map_rotation", true, CVar.SERVERONLY); // Frontier: false
 
     /// <summary>
     ///     If roles should be restricted based on time.
