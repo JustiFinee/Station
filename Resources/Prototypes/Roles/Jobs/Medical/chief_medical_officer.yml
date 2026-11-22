@@ -5,39 +5,38 @@
   name: job-name-cmo
   description: job-description-cmo
   playTimeTracker: JobChiefMedicalOfficer
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
-  - !type:OverallPlaytimeRequirement
-    time: 144000 #40 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   supervisors: job-supervisors-captain
   canBeAntag: false
   ## Frontier: commented everything below out
-  # access:
-  # - Medical
-  # - Command
-  # - Maintenance
-  # - Chemistry
-  # - ChiefMedicalOfficer
-  # - Brig
-  # - Cryogenics
-  # special:
-  # - !type:AddImplantSpecial
-  #   implants: [ MindShieldImplant ]
-  # - !type:AddComponentSpecial
-  #   components:
-  #     - type: CommandStaff
+  access:
+    - Medical
+    - Command
+    - Maintenance
+    - Chemistry
+    - ChiefMedicalOfficer
+    - Brig
+    - Cryogenics
   ## Frontier: commented everything above out
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  # Shitmed Change
-  - !type:AddComponentSpecial
-    components:
-    - type: SurgerySpeedModifier
-      SpeedModifier: 2.5
+    - !type:AddImplantSpecial
+      implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+      components:
+        - type: CommandStaff
+    # Shitmed Change
+    - !type:AddComponentSpecial
+      components:
+        - type: SurgerySpeedModifier
+          SpeedModifier: 2.5
 
 - type: startingGear
   id: CMOGear
@@ -47,4 +46,4 @@
     belt: ClothingBeltMedicalFilled
   storage:
     back:
-    - Flash
+      - Flash

@@ -3,159 +3,159 @@
   name: department-Cargo
   description: department-Cargo-description
   color: "#A46106"
-  weight: -90
-  primary: false
-  editorHidden: true # Frontier
-
-- type: department
-  id: Civilian
-  name: department-Civilian
-  description: department-NFCivilian-description # Frontier
-  color: "#9FED58"
-  weight: 1 # BF14
   roles:
-  # - Bartender # Frontier
-  # - Botanist # Frontier
-  # - Boxer # Frontier
-  # - Chaplain # Frontier
-  # - Chef # Frontier
-  # - Clown # Frontier
-  # - HeadOfPersonnel # Frontier
-  # - Lawyer # Frontier
-  # - Librarian # Frontier
-  # - Mime # Frontier
-  # - Musician # Frontier
-  # - Passenger # Frontier
-  # - Reporter # Frontier
-  # - Visitor # Frontier
-  # - Zookeeper # Frontier
-  # - ServiceWorker # Frontier
-  - Contractor # Frontier
-#  - Mercenary # Frontier # BF14 commented this out
-#  - Pilot # Frontier # BF14 commented this out
-#  - Borg # Frontier # BF14 commented this out
-  editorHidden: true # BF14
+    - CargoTechnician
+    - Quartermaster
+    - SalvageSpecialist
 
 - type: department
   id: CentralCommand
   name: department-CentralCommand
-  description: department-NFCentralCommand-description # Frontier
+  description: department-CentralCommand-description
   color: "#0c344d"
-  roles:
-  - CentralCommandOfficial
-#  - CBURN # Frontier
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-#  - DeathSquad # Frontier
-  - ERTMailCarrier # Frontier
+  weight: 120 # Highest weight of all NT departments; Central Command's authority is absolute
   editorHidden: true
-  weight: 120
+  roles:
+    - CentralCommandOfficial
+
+- type: department
+  id: Civilian
+  name: department-Civilian
+  description: department-Civilian-description
+  color: "#7F7F7F"
+  weight: -10 # Lowest weight of all "regular" crew departments
+  ignoreForDepartmentFallback: true
+  roles:
+    - Passenger
+    - Visitor
 
 - type: department
   id: Command
   name: department-Command
-  description: department-NFCommand-description # Frontier
+  description: department-Command-description
   color: "#334E6D"
-  roles:
-  # - Captain # Frontier
-  # - ChiefEngineer # Frontier
-  # - ChiefMedicalOfficer # Frontier
-  # - HeadOfPersonnel # Frontier
-  # - HeadOfSecurity # Frontier
-  # - ResearchDirector # Frontier
-  # - Quartermaster # Frontier
-  # - CentralCommandOfficial # Frontier
-  # - CBURN # Frontier
-  # - ERTLeader # Frontier
-  # - ERTChaplain # Frontier
-  # - ERTJanitor # Frontier
-  # - ERTMedical # Frontier
-  # - ERTSecurity # Frontier
-  # - ERTEngineer # Frontier
-  # - DeathSquad # Frontier
-  - StationRepresentative # Frontier
-  - Sheriff  # Frontier
-  - StationTrafficController # Frontier
-  - DirectorOfCare # Mono
+  weight: 100 # Highest weight of all "regular" crew departments
   primary: false
-  editorHidden: true # BF14
-  weight: 100
+  roles:
+    - Captain
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - ResearchDirector
+    - Quartermaster
 
 - type: department
   id: Engineering
   name: department-Engineering
   description: department-Engineering-description
   color: "#EFB341"
-  weight: -94
-  primary: false
-  editorHidden: true # Frontier
+  roles:
+    - AtmosphericTechnician
+    - ChiefEngineer
+   # - SeniorEngineer # Corvax-MentorRoles
+    - StationEngineer
+    - TechnicalAssistant
 
 - type: department
   id: Medical
   name: department-Medical
   description: department-Medical-description
   color: "#52B4E9"
-  weight: 0
-  roles: # Mono
-  - DirectorOfCare # Mono
-  - MdMedic # Mono
-  editorHidden: true # BF14
-
-- type: department
-  id: Security
-  name: department-Security
-  description: department-NFSecurity-description # Frontier
-  color: "#326DA8" # Mono
-  weight: 120 # Mono
   roles:
-#  - Detective # Frontier
-#  - HeadOfSecurity # Frontier
-#  - SecurityCadet # Frontier
-#  - SecurityOfficer # Frontier
-#  - Warden # Frontier
-  - PrisonGuard ##nyano
-  - Brigmedic # Frontier
-#  - SecurityGuard # Frontier
-  - NFDetective # Frontier
-  - Cadet # Frontier
-  - Deputy # Frontier
-  - Bailiff # Frontier
-  - Sheriff # Frontier
-  - SeniorOfficer # Frontier
-  - PublicAffairsLiaison # Frontier
-  - TsfEngineer # Mono
-  - TsfBorg # Mono
-  editorHidden: true # BF14
+    - Chemist
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Psychologist
+    - Paramedic
+    # - SeniorPhysician # Corvax-MentorRoles
 
 - type: department
   id: Science
   name: department-Science
   description: department-Science-description
   color: "#D381C9"
-  weight: -92
-  primary: false
-  editorHidden: true # Frontier
+  roles:
+    - ResearchDirector
+    - Scientist
+    - ResearchAssistant
+    # - SeniorResearcher # Corvax-MentorRoles
+
+- type: department
+  id: Security
+  name: department-Security
+  description: department-Security-description
+  color: "#DE3A3A"
+  weight: 20 # Raised priority compared to most other crew departments
+  roles:
+    - HeadOfSecurity
+    - SecurityCadet
+    - SecurityOfficer
+    # - SeniorOfficer # Corvax-MentorRoles
+    # - Pilot # Corvax-Pilot
+    - Detective
+    - Warden
+    # - Brigmedic # Corvax-Brigmedic
+
+- type: department
+  id: Service
+  name: department-Service
+  description: department-Service-description
+  color: "#9FED58"
+  roles:
+    - Bartender
+    - Botanist
+    - Chaplain
+    - Chef
+    - Clown
+    - HeadOfPersonnel
+    - Janitor
+    - Lawyer
+    - Librarian
+    - Mime
+    - Musician
+    - Reporter
+    - ServiceWorker
+    # - TramDriver
 
 - type: department
   id: Silicon
   name: department-Silicon
   description: department-Silicon-description
   color: "#D381C9"
+  weight: -20 # Displays after all regular crew departments, including Civilian, both because they're mechanically distinct and because they're subordinate to all crew by default
   roles:
-  - Borg
-  - StationAi
-  editorHidden: true # Frontier
-  primary: false # Frontier
+    - Borg
+    - StationAi
+
+- type: department
+  id: TaskForce
+  name: department-Task-Force
+  description: department-Task-Force-description
+  color: "#0c344d"
+  weight: 110 # Higher weight than Command, but below Central Command
+  editorHidden: true
+  roles:
+    - CBURN
+    - ERTLeader
+    - ERTChaplain
+    - ERTJanitor
+    - ERTMedical
+    - ERTSecurity
+    - ERTEngineer
+    - DeathSquad
 
 - type: department
   id: Specific
   name: department-Specific
   description: department-Specific-description
   color: "#9FED58"
-  weight: -91
+  weight: -100 # Displays after all other departments, since that makes them obviously distinct in the lobby's jobs list
+  ignoreForDepartmentFallback: true
   primary: false
-  editorHidden: true # Frontier
+  roles:
+    - Reporter
+    - Psychologist
+    # - TramDriver
+    # - Pilot # Corvax-Pilot

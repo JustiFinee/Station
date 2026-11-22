@@ -3,7 +3,7 @@
   name: job-name-chaplain
   description: job-description-chaplain
   playTimeTracker: JobChaplain
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
@@ -11,11 +11,11 @@
   icon: "JobIconChaplain"
   supervisors: job-supervisors-hire # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:AddComponentSpecial
-    components:
-    - type: BibleUser #Lets them heal with bibles
+    - !type:AddComponentSpecial
+      components:
+        - type: BibleUser #Lets them heal with bibles
 
 - type: startingGear
   id: ChaplainGear
@@ -25,5 +25,5 @@
     ears: ClothingHeadsetService
   storage:
     back:
-    - Bible
-    - RubberStampChaplain
+      - Bible
+      - RubberStampChaplain

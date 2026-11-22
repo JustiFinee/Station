@@ -3,20 +3,20 @@
   name: job-name-janitor
   description: job-description-janitor
   playTimeTracker: JobJanitorOld
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   startingGear: JanitorGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hop
-  # access: # Frontier
-  # - Service # Frontier
-  # - Janitor # Frontier
-  # - Maintenance # Frontier
+  access: # Frontier
+    - Service # Frontier
+    - Janitor # Frontier
+    - Maintenance # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: GarbageDay
-    prototype: WeaponRevolverInspector
+    - !type:GiveItemOnHolidaySpecial
+      holiday: GarbageDay
+      prototype: WeaponRevolverInspector
 
 - type: startingGear
   id: JanitorGear
@@ -25,16 +25,6 @@
     id: JanitorPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
-  #storage:
-    #back:
-    #- Stuff
-
-#- type: startingGear
-#  id: JanitorMaidGear
-#  equipment:
-#    jumpsuit: ClothingUniformJumpskirtJanimaid
-#    id: JanitorPDA
-#    gloves: ClothingHandsGlovesJanitor
-#    head: ClothingHeadHatCatEars
-#    ears: ClothingHeadsetService
-#    belt: ClothingBeltJanitorFilled
+  storage:
+    back:
+      - Stuff

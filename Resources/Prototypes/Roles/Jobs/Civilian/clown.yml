@@ -3,7 +3,7 @@
   name: job-name-clown
   description: job-description-clown
   playTimeTracker: JobClown
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
@@ -11,22 +11,22 @@
   icon: "JobIconClown"
   supervisors: job-supervisors-hire # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:AddComponentSpecial
-    components:
-    - type: Clumsy
-      gunShootFailDamage:
-        types: #literally just picked semi random valus. i tested this once and tweaked it.
-          Blunt: 5
-          Piercing: 4
-        groups:
-          Burn: 3
-    - type: SleepEmitSound
-      snore: /Audio/Voice/Misc/silly_snore.ogg
-      interval: 10
-  - !type:AddImplantSpecial
-    implants: [ SadTromboneImplant ]
+    - !type:AddComponentSpecial
+      components:
+        - type: Clumsy
+          gunShootFailDamage:
+            types: #literally just picked semi random valus. i tested this once and tweaked it.
+              Blunt: 5
+              Piercing: 4
+            groups:
+              Burn: 3
+        - type: SleepEmitSound
+          snore: /Audio/Voice/Misc/silly_snore.ogg
+          interval: 10
+    - !type:AddImplantSpecial
+      implants: [ SadTromboneImplant ]
 
 - type: startingGear
   id: ClownGear
@@ -38,5 +38,5 @@
     ears: ClothingHeadsetService
   storage:
     back:
-    - RubberStampClown
-    - CrayonRainbow
+      - RubberStampClown
+      - CrayonRainbow

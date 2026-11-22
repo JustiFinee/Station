@@ -3,18 +3,18 @@
   name: job-name-passenger
   description: job-description-passenger
   playTimeTracker: JobPassengerOld
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   startingGear: PassengerGear
   icon: "JobIconPassenger"
-#  supervisors: job-supervisors-everyone
+  supervisors: job-supervisors-everyone
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
 
 - type: startingGear
   id: PassengerGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-  #storage:
-    #back:
-    #- Stuff
+  storage:
+    back:
+      - Stuff

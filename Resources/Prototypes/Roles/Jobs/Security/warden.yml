@@ -12,20 +12,20 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   ## Frontier: commented out stuff below
-  # access:
-  # - Security
-  # - Brig
-  # - Armory
-  # - Maintenance
-  # - Service
-  # - External
-  # - Detective
-  # - Cryogenics
-  # special:
-  # - !type:AddImplantSpecial
-  #   implants: [ MindShieldImplant ]
+  access:
+   - Security
+   - Brig
+   - Armory
+   - Maintenance
+   - Service
+   - External
+   - Detective
+   - Cryogenics
+  special:
+   - !type:AddImplantSpecial
+     implants: [ MindShieldImplant ]
   ## End Frontier: commented out stuff above
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

@@ -3,7 +3,7 @@
   name: job-name-qm
   description: job-description-qm
   playTimeTracker: JobQuartermaster
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
@@ -12,23 +12,23 @@
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain
   canBeAntag: false
-  # access: # Frontier
-  # - Cargo # Frontier
-  # - Salvage # Frontier
-  # - Quartermaster # Frontier
-  # - Maintenance # Frontier
-  # - External # Frontier
-  # - Command # Frontier
-  # - Brig # Frontier
-  # - Cryogenics # Frontier
+  access: # Frontier
+    - Cargo # Frontier
+    - Salvage # Frontier
+    - Quartermaster # Frontier
+    - Maintenance # Frontier
+    - External # Frontier
+    - Command # Frontier
+    - Brig # Frontier
+    - Cryogenics # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+    - !type:AddImplantSpecial
+      implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+      components:
+        - type: CommandStaff
 
 - type: startingGear
   id: QuartermasterGear
@@ -39,4 +39,4 @@
     pocket1: AppraisalTool
   storage:
     back:
-    - Flash
+      - Flash

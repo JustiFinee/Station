@@ -5,11 +5,11 @@
   playTimeTracker: JobVisitor
   canBeAntag: false
   icon: JobIconVisitor
-  setPreference: false
-#  overrideConsoleVisibility: true # Frontier
+  setPreference: true
+  overrideConsoleVisibility: true # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
-  # access: # Frontier
-  # - Maintenance # Frontier
-  # extendedAccess: # Frontier
-  # - External # Frontier
+  access: # Frontier
+   - Maintenance # Frontier
+  extendedAccess: # Frontier
+   - External # Frontier

@@ -3,7 +3,7 @@
   name: job-name-chef
   description: job-description-chef
   playTimeTracker: JobChef
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
@@ -11,11 +11,11 @@
   icon: "JobIconChef"
   supervisors: job-supervisors-hire # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:AddComponentSpecial
-    components:
-    - type: ProfessionalChef #Nyano - End Summary.
+    - !type:AddComponentSpecial
+      components:
+        - type: ProfessionalChef #Nyano - End Summary.
 
 - type: startingGear
   id: ChefGear

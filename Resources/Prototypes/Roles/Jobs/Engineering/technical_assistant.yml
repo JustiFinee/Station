@@ -16,7 +16,7 @@
   canBeAntag: false
   accessGroups: # Frontier
   - GeneralAccess # Frontier
-  setPreference: false # Frontier
+  setPreference: true # Frontier
 
 - type: startingGear
   id: TechnicalAssistantGear

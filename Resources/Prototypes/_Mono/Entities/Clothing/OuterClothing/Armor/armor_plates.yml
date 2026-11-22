@@ -14,20 +14,20 @@
     sprite: _Mono/Clothing/ArmorPlate/armor_light.rsi
     size: Normal
   - type: ArmorPlateItem
-    maxDurability: 60 # BF14
+    maxDurability: 90 # BF14
     walkSpeedModifier: 1 # BF14
     sprintSpeedModifier: 1 # BF14
     staminaDamageMultiplier: 0.3 # BF14
     absorptionRatios:
-      Piercing: 1
-      Structural: 1 # BF14
+      Piercing: 0.9
+      Structural: 0.9 # BF14
   - type: Damageable
     damageContainer: StructuralInorganic # BF14
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 60 #BF14
+        damage: 90 #BF14
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -53,12 +53,12 @@
     sprite: _Mono/Clothing/ArmorPlate/armor_medium.rsi
     size: Normal
   - type: ArmorPlateItem
-    maxDurability: 240 # BF14
-    walkSpeedModifier: 0.7 # BF14
-    sprintSpeedModifier: 0.7 # BF14
-    staminaDamageMultiplier: 0.25 # BF14
+    maxDurability: 120 # BF14
+    walkSpeedModifier: 0.94 # BF14
+    sprintSpeedModifier: 0.94 # BF14
+    staminaDamageMultiplier: 0.15 # BF14
     absorptionRatios:
-      Piercing: 0.7
+      Piercing: 0.9
       Structural: 0.9 # BF14
   - type: Damageable
     damageContainer: StructuralInorganic # BF14
@@ -66,7 +66,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 240 #BF14
+        damage: 120 #BF14
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -92,20 +92,20 @@
     sprite: _Mono/Clothing/ArmorPlate/armor_tactical.rsi
     size: Normal
   - type: ArmorPlateItem
-    maxDurability: 340 # BF14
-    walkSpeedModifier: 0.65 # BF14
-    sprintSpeedModifier: 0.65 # BF14
-    staminaDamageMultiplier: 0.15 # BF14
+    maxDurability: 200 # BF14
+    walkSpeedModifier: 0.85 # BF14
+    sprintSpeedModifier: 0.85 # BF14
+    staminaDamageMultiplier: 0.18 # BF14
     absorptionRatios:
-      Piercing: 0.75
-      Structural: 0.8 # BF14
+      Piercing: 0.8
+      Structural: 1 # BF14
   - type: Damageable
     damageContainer: StructuralInorganic # BF14
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 340 # BF14
+        damage: 200 # BF14
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -131,10 +131,10 @@
     sprite: _Mono/Clothing/ArmorPlate/armor_plastitanium.rsi
     size: Normal
   - type: ArmorPlateItem
-    maxDurability: 440 # BF14
-    walkSpeedModifier: 0.6 # BF14
-    sprintSpeedModifier: 0.6 # BF14
-    staminaDamageMultiplier: 0.1 # BF14
+    maxDurability: 320 # BF14
+    walkSpeedModifier: 0.85 # BF14
+    sprintSpeedModifier: 0.85 # BF14
+    staminaDamageMultiplier: 0.15 # BF14
     absorptionRatios:
       Piercing: 0.86
       Structural: 1 # BF14
@@ -144,7 +144,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 440
+        damage: 320
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -212,12 +212,12 @@
     sprite: _Mono/Clothing/ArmorPlate/armor_obsolete.rsi
     size: Normal
   - type: ArmorPlateItem
-    maxDurability: 500
-    walkSpeedModifier: 0.5
-    sprintSpeedModifier: 0.6
-    staminaDamageMultiplier: 0.5
+    maxDurability: 240
+    walkSpeedModifier: 0.8
+    sprintSpeedModifier: 0.8
+    staminaDamageMultiplier: 0.1
     damageMultipliers:
-      Piercing: 0.5
+      Piercing: 0.9
     absorptionRatios:
       Blunt: 0.6
       Slash: 0.6
@@ -228,7 +228,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 500 
+        damage: 240
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]

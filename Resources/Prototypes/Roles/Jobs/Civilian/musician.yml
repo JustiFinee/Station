@@ -3,7 +3,7 @@
   name: job-name-musician
   description: job-description-musician
   playTimeTracker: JobMusician
-  setPreference: false # Frontier
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
@@ -11,11 +11,11 @@
   icon: "JobIconMusician"
   supervisors: job-supervisors-hire # Frontier
   accessGroups: # Frontier
-  - GeneralAccess # Frontier
+    - GeneralAccess # Frontier
   special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: MikuDay
-    prototype: BoxPerformer
+    - !type:GiveItemOnHolidaySpecial
+      holiday: MikuDay
+      prototype: BoxPerformer
 
 - type: startingGear
   id: MusicianGear
@@ -24,6 +24,6 @@
     shoes: ClothingShoesBootsLaceup
     id: MusicianPDA
     ears: ClothingHeadsetService
-  #storage:
-    #back:
-    #- Stuff
+  storage:
+    back:
+      - Stuff

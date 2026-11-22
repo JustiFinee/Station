@@ -23,7 +23,7 @@ ent-WeaponRifleUSM4A1 = M4A1
 ent-WeaponRifleUSM4A1ACOG = M4A1 ACOG
     .desc = { ent-WeaponRifleUSM4A1.desc }
 
-ent-WeaponRifleUSM4A1SUPP = M4A1 с глушителем
+ent-WeaponRifleUSM4A1SUPP = M4A1-S
     .desc = Модификация карабина M4A1 с установленным глушителем и тактическим обвесом для проведения специальных операций.
 
 ent-WeaponRifleUSCAR15 = CAR-15

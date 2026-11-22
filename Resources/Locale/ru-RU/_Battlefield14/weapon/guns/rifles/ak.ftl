@@ -41,7 +41,7 @@ ent-WeaponRifleRUAK12SKTracerGreen = { ent-WeaponRifleRUAK12SK }
     .desc = { ent-WeaponRifleRUAK12SK.desc }
     .suffix = трассирующий, зелёный[cite: 3]
 
-ent-WeaponRifleRUAK74FSB = АК-74 МОД III
+ent-WeaponRifleRUAK74FSB = АК-74 MOD III
     .desc = Глубокая модернизация АК-74 с обвесом, прицелом LPVO и глушителем, собранная под задачи подразделений специального назначения. 
 
 ent-WeaponRifleRUAKM = АКМ
