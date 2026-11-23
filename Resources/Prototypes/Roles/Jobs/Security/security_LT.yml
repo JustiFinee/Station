@@ -1,0 +1,42 @@
+- type: playTimeTracker
+  id: JobSecurityLT
+
+- type: job
+  id: SecurityLT
+  name: job-name-security-LT
+  description: job-description-security-LT
+  playTimeTracker: JobSecurityLT
+  setPreference: true
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 0
+  startingGear: SecurityLTGear
+  icon: "JobIconSecurityLT"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+    - External
+    - Cryogenics
+  special:
+    - !type:AddImplantSpecial
+      implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecurityLTGear
+  equipment:
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+    id: SecurityLTPDA
+  storage:
+    back:
+    - Flash
+
+- type: jobIcon
+  id: JobIconSecurityLT
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: SecurityLT

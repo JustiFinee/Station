@@ -168,6 +168,13 @@
 
 - type: entity
   parent: BasePDA
+  id: SecurityLTPDA
+  components:
+  - type: Pda
+    id: SecurityLTIDCard
+
+- type: entity
+  parent: BasePDA
   id: BaseMedicalPDA # Mono: BaseMedicalPDA reinstated
   abstract: true
   components:

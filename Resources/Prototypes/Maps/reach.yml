@@ -19,7 +19,8 @@
           availableJobs:
             Captain: [ 1, 1 ]
             HeadOfSecurity: [ 1, 1 ]
-            SecurityOfficer: [ 1, 3 ]
+            SecurityOfficer: [ 1, 2 ]
+            SecurityLT: [ 1, 1 ]
             CargoTechnician: [ 1, 1 ]
             SalvageSpecialist: [ 1, 1 ]
             Bartender: [ 1, 1 ]

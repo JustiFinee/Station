@@ -647,3 +647,17 @@
     layers:
       - state: green
       - state: zookeeper
+
+# custom
+
+- type: entity
+  id: SpawnPointSecurityLT
+  parent: SpawnPointJobBase
+  name: security lieutenant spawn point
+  components:
+  - type: SpawnPoint
+    job_id: SecurityLT
+  - type: Sprite
+    layers:
+    - state: green
+    - state: security_officer

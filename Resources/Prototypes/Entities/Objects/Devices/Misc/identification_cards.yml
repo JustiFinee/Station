@@ -1,0 +1,19 @@
+- type: entity
+  parent: SergeantIDCard
+  id: SecurityLTIDCard
+  name: ID-карта лейтенанта СБ
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/id_cards.rsi
+    layers:
+    - state: LtSec
+    - state: idltsec
+  - type: IdCard
+    jobTitle: Лейтенант СБ
+  - type: Access
+    tags:
+    - Security
+    - Armory
+    - Brig
+    - Command
+    - Maintenance

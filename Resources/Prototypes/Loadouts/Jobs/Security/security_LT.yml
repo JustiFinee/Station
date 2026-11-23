@@ -1,0 +1,116 @@
+# Senior Time
+- type: loadoutEffectGroup
+  id: SeniorOfficer
+  effects:
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:RoleTimeRequirement
+        role: JobWarden
+        time: 21600 #6 hrs
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:DepartmentTimeRequirement
+        department: Security
+        time: 216000 # 60 hrs
+
+# Security Star
+- type: loadoutEffectGroup
+  id: SecurityStarWorthy
+  effects:
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:DepartmentTimeRequirement
+        department: Security
+        time: 360000 #100 hrs
+
+# Head
+- type: loadout
+  id: SecurityBeret
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+
+# Jumpsuit
+- type: loadout
+  id: TsfmcJumpsuitLt
+  equipment:
+    jumpsuit: ClothingUniformTSFMC
+
+# Back
+- type: loadout
+  id: SecurityBackpack
+  equipment:
+    back: ClothingBackpackSecurity
+
+- type: loadout
+  id: SecuritySatchel
+  equipment:
+    back: ClothingBackpackSatchelSecurity
+
+- type: loadout
+  id: SecurityDuffel
+  equipment:
+    back: ClothingBackpackDuffelSecurity
+
+# Belt
+- type: loadout
+  id: TsfmcCombatWebbing
+  equipment:
+    belt: ClothingBeltWebbingsNormalTSFMC
+
+# Outerclothing
+- type: loadout
+  id: TsfmcPlateCarrierLt
+  equipment:
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+
+# Shoes
+- type: loadout
+  id: CombatBoots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: JackBoots
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+# PDA
+- type: loadout
+  id: SeniorOfficerPDA
+  equipment:
+    id: SeniorOfficerPDA
+
+- type: loadout
+  id: SeniorOfficerPDA
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SeniorOfficer
+  equipment:
+    id: SeniorOfficerPDA
+
+# Misc
+- type: loadout
+  id: SecStar
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SecurityStarWorthy
+  storage:
+    back:
+      - Dinkystar
+
+# custom
+
+- type: loadout
+  id: SecLtTacticalGloves
+  equipment:
+    gloves: ClothingHandsGlovesCombat
+
+- type: loadout
+  id: SecLtGlassesBlack
+  equipment:
+    eyes: ClothingEyesGogglesTan
+
+- type: loadout
+  id: SecLTGlassesClear
+  equipment:
+    eyes: ClothingEyesGogglesClear

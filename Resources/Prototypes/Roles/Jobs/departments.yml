@@ -92,7 +92,7 @@
     - HeadOfSecurity
     - SecurityCadet
     - SecurityOfficer
-    # - SeniorOfficer # Corvax-MentorRoles
+    - SecurityLT
     # - Pilot # Corvax-Pilot
     - Detective
     - Warden

@@ -13827,6 +13827,13 @@ entities:
     - type: Transform
       pos: 17.5,-3.5
       parent: 2
+- proto: SpawnPointSecurityLT
+  entities:
+  - uid: 3500
+    components:
+    - type: Transform
+      pos: 18.5,-3.5
+      parent: 2
 - proto: SpawnPointStationEngineer
   entities:
   - uid: 2001

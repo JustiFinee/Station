@@ -33,11 +33,9 @@
   name: loadout-group-contractor-jumpsuit
   minLimit: 1
   loadouts:
-  - TsfmcClothingJumpsuit
-  - TsfmcClothingJumpsuitType47D
-  - TsfmcClothingDressUniform
+  - TsfmcJumpsuitLt
   fallbacks:
-  - TsfmcClothingJumpsuit
+  - TsfmcJumpsuitLt
 
 - type: loadoutGroup
   id: TsfmcJumpsuitEngi
@@ -91,7 +89,6 @@
   maxLimit: 1
   loadouts:
   - TsfmcCombatWebbing
-  - TsfmcCombatWebbingLarge
   fallbacks:
   - TsfmcCombatWebbing
 
@@ -236,8 +233,27 @@
   name: loadout-group-contractor-outerclothing
   minLimit: 1
   loadouts:
-  - TsfmcClothingOuterArmorBPVestLight
-  - TsfmcClothingOuterArmorBPVestMedium
+    - TsfmcPlateCarrierLt
   fallbacks:
-  - TsfmcClothingOuterArmorBPVestLight
+    - TsfmcPlateCarrierLt
 
+- type: loadoutGroup
+  id: SecLtGlovesGroup
+  name: loadout-group-seclt-gloves
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+    - SecLtTacticalGloves
+  fallbacks:
+    - SecLtTacticalGloves
+
+- type: loadoutGroup
+  id: SecLtEyesGroup
+  name: loadout-group-seclt-eyes
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+    - SecLtGlassesBlack
+    - SecLTGlassesClear
+  fallbacks:
+    - SecLtGlassesBlack

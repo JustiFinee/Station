@@ -381,6 +381,22 @@
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
+  id: JobSecurityLT
+  groups:
+  - SecurityHead
+  - TsfmcJumpsuit
+  - SecurityBackpack
+  - TsfmcOuterClothing
+  - SecurityShoes
+  - TsfmcBelt
+  - SurvivalSecurity
+  - SecLtGlovesGroup
+  - SecLtEyesGroup
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
   id: JobDetective
   groups:
   - DetectiveHead
@@ -586,3 +602,4 @@
   groups:
   - GroupEVATank
   - SurvivalExtended
+

@@ -43,6 +43,7 @@ job-name-research-assistant = научный ассистент
 job-name-salvagespec = утилизатор
 job-name-scientist = учёный
 job-name-security = офицер СБ
+job-name-security-LT = лейтенант СБ
 job-name-serviceworker = сервисный работник
 job-name-station-ai = станционный ИИ
 job-name-technical-assistant = технический ассистент
