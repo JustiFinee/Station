@@ -210,7 +210,7 @@
     - SemiAuto
     - FullAuto
     selectedMode: FullAuto
-    fireRate: 12.5 # 750 RPM
+    fireRate: 8.33 # 500 RPM
 
 #region M16A4
 

@@ -40,7 +40,7 @@
     - SemiAuto
     - FullAuto
     selectedMode: FullAuto
-    fireRate: 10.8 # 650 RPM
+    fireRate: 7.5 # 450 RPM
     projectileSpeed: 45
     soundGunshot:
       collection: BF_AK_545_Gunshots

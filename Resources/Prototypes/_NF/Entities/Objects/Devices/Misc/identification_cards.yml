@@ -125,7 +125,7 @@
   name: TSFMC fireteam leader ID card
   components:
   - type: PresetIdCard
-    job: SeniorOfficer
+    job: SecurityLT
   - type: Sprite
     sprite: _NF/Objects/Misc/id_cards.rsi
     layers:

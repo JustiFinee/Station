@@ -36,7 +36,8 @@
     - Flash
 
 - type: jobIcon
+  parent: JobIcon
   id: JobIconSecurityLT
   icon:
-    sprite: Interface/Misc/job_icons.rsi
+    sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SecurityLT

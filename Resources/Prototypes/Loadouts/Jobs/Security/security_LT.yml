@@ -1,6 +1,6 @@
 # Senior Time
 - type: loadoutEffectGroup
-  id: SeniorOfficer
+  id: SecurityLT
   effects:
     - !type:JobRequirementLoadoutEffect
       requirement:
@@ -84,7 +84,7 @@
   id: SeniorOfficerPDA
   effects:
     - !type:GroupLoadoutEffect
-      proto: SeniorOfficer
+      proto: SecurityLT
   equipment:
     id: SeniorOfficerPDA
 

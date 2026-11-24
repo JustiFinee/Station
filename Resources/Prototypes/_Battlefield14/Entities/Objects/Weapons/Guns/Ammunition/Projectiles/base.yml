@@ -65,10 +65,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 25
+        Piercing: 22
 #    armorPenetration: 0.1
   - type: StaminaDamageOnCollide
-    damage: 7 # ~15 hits to stun
+    damage: 5 # ~15 hits to stun
   - type: ArmorPiercing
     piercingThickness: 2
 
